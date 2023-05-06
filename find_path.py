@@ -141,7 +141,7 @@ def tryReachEnd(area : Area, list_nodes : List[Node], list_edges : List[Edge], c
     :param list_nodes: A list of nodes in the area.
     :param list_edges: A list of edges in the area.
     :param currentNode: The current node which is trying to connect to the end node.
-    :endNode: The end node.
+    :param endNode: The end node.
     :return: The edge which connecting to the end node if it's valid else None.
     """
 
